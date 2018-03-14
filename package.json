@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "parcel ./src/index.html",
     "build": "parcel build ./src/index.html ./dist",
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "dependencies": {
     "react": "^16.2.0",
@@ -27,9 +28,6 @@
     }
   },
   "babel": {
-    "presets": [
-      "react",
-      "es2015"
-    ]
+    "presets": ["react", "es2015"]
   }
 }
